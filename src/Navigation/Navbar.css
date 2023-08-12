@@ -1,0 +1,19 @@
+.navbar{
+    background-image: url(../assets/background-mob.png);
+    background-repeat: no-repeat;
+    background-size: 100%;  
+}
+
+.wrapper{
+ display:flex;
+ justify-content: center;
+ padding:50px
+}
+
+.wrapper div{
+    margin: 0 16px
+}
+
+.click{
+    background-color: red;
+}

@@ -10,12 +10,13 @@ import Info from './Pages/Info.tsx';
 import Plan from './Pages/Plan.tsx';
 import Add from './Pages/Add.tsx';
 import Summary from './Pages/Summary';
-
+import Navbar from './Navigation/Navbar.tsx';
 function App() {
  return (
 
    <Router>
       <>
+      <Navbar/>
         <Routes>
           <Route path="/" element={<Navigate to="/info" />} />
           <Route path="/info" element={<Info />} />

@@ -9,6 +9,7 @@ export default {
       colors: {
         denim: '#022959',
         sky: '#BEE2FD',
+        gray: "#9699AA",
       },
     },
   },

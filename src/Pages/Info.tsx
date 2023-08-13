@@ -17,13 +17,13 @@ function Info(){
     <h2 className="text-3xl text-denim font-bold">Personal info</h2>
     <p className="text-gray">Please provide your name, email address, and phone number</p>
     <div className="mb-6">
-        <label htmlFor="name" className="text-denim text-xl ">Name</label>
+        <label htmlFor="name" className="text-denim text-lg font-medium">Name</label>
         <br />
         <input
           type="text"
           name="name"
           value={name}
-          className="p-2 text-sm rounded"
+          className="p-2 text-sm rounded border border-1 border-gbor rounded-md p-2 w-full"
           placeholder="e.g. Stephen King"
           onChange={(e) => setName(e.target.value)}
         />
@@ -35,13 +35,13 @@ function Info(){
         )}
       </div>
       <div className="mb-6">
-        <label htmlFor="email">Email Address</label>
+        <label htmlFor="email"  className="text-denim text-lg font-medium">Email Address</label>
         <br />
         <input
           type="text"
           name="email"
-          value={email}
-          className="p-2 text-sm rounded"
+          value={email} 
+          className="p-2 text-sm rounded border border-1 border-gbor rounded-md p-2 w-full"
           placeholder="e.g. stephenking@lorem.com"
           onChange={(e) => setEmail(e.target.value)}
         />
@@ -53,13 +53,13 @@ function Info(){
         )}
       </div>
       <div className="mb-6">
-        <label htmlFor="phone">Phone Number</label>
+        <label htmlFor="phone"  className="text-denim text-lg font-medium">Phone Number</label>
         <br />
 
         <input
           type="text"
           name="phone"
-          className="p-2 text-sm rounded "
+          className="p-2 text-sm rounded border border-1 border-gbor rounded-md p-2 w-full"
           placeholder="e.g. +1 234 567 890"
           value={phone}
 

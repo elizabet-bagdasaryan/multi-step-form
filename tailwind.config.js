@@ -10,6 +10,8 @@ export default {
         denim: '#022959',
         sky: '#BEE2FD',
         gray: "#9699AA",
+        gbor:"#D6D9E6",
+        bgray: "#F8F9FF"
       },
     },
   },

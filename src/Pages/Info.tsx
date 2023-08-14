@@ -71,7 +71,9 @@ function Info(){
           </span>
         )}
       </div>
+
         </div>
+       
     )
 }
 

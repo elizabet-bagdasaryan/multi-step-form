@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Navbar(){
 
-  const [clickedPage, setClickedPage] = useState(-1);
+  const [clickedPage, setClickedPage] = useState(1);
 
 
 

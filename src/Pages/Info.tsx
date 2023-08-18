@@ -13,7 +13,7 @@ function Info(){
   
   
     return(
-        <div className="bg-white rouned absolute ">
+        <div className="bg-white rouned absolute p-6 ">
     <h2 className="text-3xl text-denim font-bold">Personal info</h2>
     <p className="text-gray">Please provide your name, email address, and phone number</p>
     <div className="mb-6">

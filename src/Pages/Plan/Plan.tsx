@@ -18,7 +18,7 @@ function Plan(){
 
 
     return(
-        <>
+        <div className="p-6">
 
     <h2 className="text-3xl text-denim font-bold">Select your plan</h2>
     <p className="text-gray">You have the option of monthly or yearly billing.</p>
@@ -45,8 +45,8 @@ function Plan(){
     <p className="text-denim font-bold">Pro</p>
     <p className="text-gray font-medium">$15/mo</p>
 </div>
-
-<div className="flex items-center bg-bgray rounded-md p-2 w-full toggle justify-center">
+</div>
+<div className="flex items-center bg-bgray rounded-md p-2 w-full  justify-center">
         <p
           className="text-denim text-lg font-medium my-2"
           style={{ color: billing ? "#9699AA" : "#022959" }}
@@ -65,8 +65,8 @@ function Plan(){
         </p>
       </div>
 
-    </div>
-        </>
+   
+        </div>
     )
 }
 

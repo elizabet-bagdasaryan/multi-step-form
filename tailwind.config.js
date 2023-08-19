@@ -13,7 +13,8 @@ export default {
         gbor:"#D6D9E6",
         bgray: "#F8F9FF",
         purple: "#483EFF",
-        hoverdenim: "#164A8A"
+        hoverdenim: "#164A8A",
+        lightgrey:"#F8F9FF"
       },
     },
   },

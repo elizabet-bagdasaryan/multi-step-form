@@ -2,10 +2,11 @@ import "./Navbar.css"
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
+
 function Navbar(){
 
   const [clickedPage, setClickedPage] = useState(1);
-
+  const background = "url('../assets/background-mob.png')"
 
 
 
@@ -15,7 +16,7 @@ function Navbar(){
   }
   
 return( 
- <div className="navbar">
+ <div style={{background}} className=" bg-no-repeat">
    <div className="wrapper">
    <Link to="/info" style={{ textDecoration: "none" }}>
    <div  onClick={() => handlePages(1)}

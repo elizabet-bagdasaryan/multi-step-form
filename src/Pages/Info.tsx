@@ -22,7 +22,6 @@ function Info(){
         <input
           type="text"
           name="name"
-          value={name}
           className="p-2 text-sm rounded border border-1 border-gbor rounded-md p-2 w-full"
           placeholder="e.g. Stephen King"
           onChange={(e) => setName(e.target.value)}
@@ -40,7 +39,6 @@ function Info(){
         <input
           type="text"
           name="email"
-          value={email} 
           className="p-2 text-sm rounded border border-1 border-gbor rounded-md p-2 w-full"
           placeholder="e.g. stephenking@lorem.com"
           onChange={(e) => setEmail(e.target.value)}
@@ -61,7 +59,6 @@ function Info(){
           name="phone"
           className="p-2 text-sm rounded border border-1 border-gbor rounded-md p-2 w-full"
           placeholder="e.g. +1 234 567 890"
-          value={phone}
 
         />
         <br />

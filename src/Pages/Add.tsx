@@ -22,7 +22,7 @@ function Add(){
     <p className="text-gray">Add-ons help enhance your gaming experience.</p>
     <div onClick={handleService} className={clickedService ? "flex border border-1 border-purple bg-lightgrey rounded-md p-2 w-full items-center justify-between mt-6":"flex border border-1 border-gbor rounded-md p-2 w-full items-center justify-between mt-6" }>
     <div className="flex items-center">
-    <input type="checkbox"  id="1" className="w-5 h-5 mr-4" onClick={handleService}/>
+    <input type="checkbox"  id="1" className="w-5 h-5 mr-4" />
     <label htmlFor="1">
         <p className="text-denim font-bold">Online service</p>
         <p className="text-gray text-xs">Access to multiplayer games</p>

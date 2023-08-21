@@ -26,11 +26,12 @@ function Plan(){
 
     <h2 className="text-3xl text-denim font-bold">Select your plan</h2>
     <p className="text-gray">You have the option of monthly or yearly billing.</p>
+    <div className="md:flex ">
     <div
     onClick={() => handlePlan(1)}
-    className={clickedPlan === 1 ? "flex w-full border border-1 border-purple bg-lightgrey rounded-md p-4 mt-4" : "flex w-full border border-1 border-gbor rounded-md p-4 mt-4"}
+    className={ clickedPlan === 1 ? "flex w-full border border-1 border-purple bg-lightgrey rounded-md p-4 mt-4 md:h-48 md:block   mr-8" : "flex w-full border border-1 border-gbor rounded-md p-4 mt-4 md:h-48 md:block   mr-8"}
     >
-<img src={Arcade} className="w-12 h-12 mr-6"/>
+<img src={Arcade} className="w-12 h-12 mr-6 md:mt-4 mb-8"/>
 <div>
     <p className="text-denim font-bold">Arcade</p>
     { billing ? (
@@ -44,8 +45,8 @@ function Plan(){
 
     </div>
     <div onClick={() => handlePlan(2)}
-    className={clickedPlan === 2 ? "flex w-full border border-1 border-purple bg-lightgrey rounded-md p-4 mt-4" : "flex w-full border border-1 border-gbor rounded-md p-4 mt-4"}>
-<img src={Advanced} className="w-12 h-12 mr-6"/>
+    className={clickedPlan === 2 ? "flex w-full border border-1 border-purple bg-lightgrey rounded-md p-4 mt-4 md:h-48 md:block   mr-8" : "flex w-full border border-1 border-gbor rounded-md p-4 mt-4 md:block mr-8"}>
+<img src={Advanced} className="w-12 h-12 mr-6 md:mt-4 mb-8"/>
 <div>
     <p className="text-denim font-bold">Advanced</p>
     { billing ? (
@@ -59,8 +60,8 @@ function Plan(){
     </div>
 
     <div onClick={() => handlePlan(3)}
-    className={clickedPlan === 3 ? "flex w-full border border-1 border-purple bg-lightgrey rounded-md p-4 mt-4" : "flex w-full border border-1 border-gbor rounded-md p-4 mt-4"}>
-<img src={Pro} className="w-12 h-12 mr-6"/>
+    className={clickedPlan === 3 ? "flex w-full border border-1 border-purple bg-lightgrey rounded-md p-4 mt-4 md:h-48 md:block  " : "flex w-full border border-1 border-gbor rounded-md p-4 mt-4 md:block "}>
+<img src={Pro} className="w-12 h-12 mr-6 md:mt-4 mb-8"/>
 <div>
     <p className="text-denim font-bold">Pro</p>
     { billing ? (
@@ -69,6 +70,7 @@ function Plan(){
       <p className="text-gray font-medium">$15/mo</p>
     )}
     <p className={billing ? "visible text-denim text-sm" : "hidden"}> 2 months free</p>
+</div>
 </div>
 </div>
 <div className="flex items-center bg-bgray rounded-md p-2 w-full  justify-center mt-8">

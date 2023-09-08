@@ -4,13 +4,12 @@
     background-size: 100%;  
 } */
 
-.wrapper{
- display:flex;
- justify-content: center;
- padding:50px
+.wrapper {
+	display: flex;
+	justify-content: center;
+	padding: 50px;
 }
 
-.wrapper div{
-    margin: 0 16px
+.wrapper div {
+	margin: 0 16px;
 }
-

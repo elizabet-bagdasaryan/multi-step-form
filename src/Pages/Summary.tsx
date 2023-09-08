@@ -1,10 +1,5 @@
-function Summary(){
-    return(
-        <>
-     
-        </>
-    )
+function Summary() {
+	return <></>;
 }
 
-
-export default Summary
+export default Summary;
